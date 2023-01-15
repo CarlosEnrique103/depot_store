@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+<header class="header">
+  <ul>
+    <li>
+      <h1><%= link_to "Depot Store", products_path %></h1>
+    </li>
+    <li><%= link_to "Añadir", new_product_path %></li>
+  </ul>
+</header>
+
+<div id="products" class="products">
+  <% @products.each do |product| %>
+    <%= render product %>
+  <% end %>
+</div>
+

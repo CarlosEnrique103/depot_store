@@ -1,0 +1,21 @@
+<p style="color: green"><%= notice %></p>
+<header class="header">
+  <ul>
+    <li>
+      <h1><%= link_to "Depot Store", products_path %></h1>
+    </li>
+    <li>
+      <div class="buttons">
+        <%= link_to "Editar", edit_product_path %>
+        <%= link_to "Eliminar", @product, data: {
+          turbo_method: :delete,
+          turbo_confirm: "Estas seguro?"
+        } %>
+      </div>
+    </li>
+  </ul>
+</header>
+
+<h1 class="title_product"><%= @product.title %></h1>
+
+<%= render @product %>

@@ -1,0 +1,41 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import "../abstracts/variables";
+
+/* ROOT */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+  background: #2E2F30;
+  font-size: 1.6rem;
+  color: $color-black;
+  background:  $color-bg-white;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: $color-black;
+}
+
+li {
+  list-style: none;
+}

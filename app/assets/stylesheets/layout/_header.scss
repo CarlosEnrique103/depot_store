@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import "../abstracts/variables";
+
+.header {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    background: $color-header;
+    padding: 2rem;
+    color: $color-white;
+    a {
+      color: $color-white;
+    }
+  }
+}

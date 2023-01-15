@@ -1,0 +1,32 @@
+@import "../abstracts/variables";
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  .form_control {
+    width: 100%;
+    label {
+      margin-bottom: 1rem;
+    }
+  }
+  input {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Roboto', 'sans-serif';
+  }
+}
