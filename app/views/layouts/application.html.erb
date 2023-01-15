@@ -3,6 +3,7 @@
   <head>
     <title>DepotApp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,8 +12,6 @@
   </head>
 
   <body>
-    <main class="<%= controller.controller_name %>>">
-      <%= yield %>
-    </main>
+    <%= yield %>
   </body>
 </html>

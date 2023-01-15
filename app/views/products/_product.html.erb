@@ -5,8 +5,8 @@
     </div>
     <div class="info_container">
       <p class="title"><%= product.title %></p>
-      <p class="description"><%= product.description %></p>
-      <p class="price">S/ <%= product.price %></p>
+      <p class="description"><%= truncate(strip_tags(product.description), length: 10) %></p>
+      <p class="price">S/ <%= sprintf "%.2f", product.price %></p>
     </div>
   </div>
 <% end %>

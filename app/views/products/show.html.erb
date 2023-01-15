@@ -1,4 +1,13 @@
-<p style="color: green"><%= notice %></p>
+<% if notice %>
+  <div class="notice">
+    <div class="icon-container">
+      <i class="ri-checkbox-circle-fill check"></i>
+    </div>
+    <p>
+      <%= notice %>
+    </p>
+  </div>
+<% end %>
 <header class="header">
   <ul>
     <li>

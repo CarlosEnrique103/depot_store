@@ -1,0 +1,35 @@
+@import '../abstracts/variables';
+
+.notice {
+  max-width: 40rem;
+  width: 30rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $color-bg-notice;
+  border: 1px solid $color-border-notice ;
+  border-radius: 2rem;
+  padding: 1rem;
+  .icon-container {
+    background: $color-bg-icon-check;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 8px -4px $color-bg-icon-check;
+    i {
+      color: $color-white;
+      font-size: 3rem;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+    color: $color-black;
+  }
+}
