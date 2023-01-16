@@ -3,11 +3,11 @@
 one:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: product_1.jpeg
   price: 9.99
 
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+shirt:
+  title: Camisa de caballero
+  description: Camisa de caballero de temporada verano
+  image_url: product_2.jpeg
+  price: 20.0

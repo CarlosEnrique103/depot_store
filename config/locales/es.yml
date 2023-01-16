@@ -1,0 +1,10 @@
+es:
+  activerecord:
+    models:
+      product: Producto
+    attributes:
+      product:
+        title: Título
+        description: Descripción
+        price: Precio
+        image_url: URL de imagen

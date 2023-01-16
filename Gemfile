@@ -11,6 +11,7 @@ gem "sprockets-rails"
 
 gem "bootstrap-sass"
 gem "sassc-rails"
+gem "rails-i18n"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
